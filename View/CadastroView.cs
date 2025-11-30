@@ -10,7 +10,7 @@ namespace Barbearia_console.View
 
         public CadastroView(UserRepository repo)
         {
-            _repo = repo; // Recebe o repositório já pronto
+            _repo = repo;
         }
 
         public void Executar()
